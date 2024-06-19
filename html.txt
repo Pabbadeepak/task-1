@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMART.COM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#home">Home</a></li>
+            <li class="nav-item"><a href="#products">Products</a></li>
+            <li class="nav-item"><a href="#deals">Deals</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <section id="home">
+            <h1>Welcome to DMART.com</h1>
+            <img src="https://img.etimg.com/thumb/msid-77515791,width-1070,height-580/photo.jpg" alt="Shopping" class="banner-image">
+        </section>
+        <section id="products">
+            <h2>Our Products</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZFBWMgoDHYYtrOWKxx_Gq05PfJZ-8ziJorQ&s" alt="Product" class="start-image">
+
+            <div class="product-list">
+                <div class="product-item">
+                    <h3>Product 1</h3>
+                    <p>Description of product 1.</p>
+                </div>
+                <div class="product-item">
+                    <h3>Product 2</h3>
+                    <p>Description of product 2.</p>
+                </div>
+                <!-- Add more product items as needed -->
+            </div>
+        </section>
+        <section id="deals">
+            <h2>Current Deals</h2>
+            <div class="deals-list">
+                <div class="deal-item">
+                    <div class="deal-text">
+                        <h3>Deal 1</h3>
+                        <p>Details of deal 1.</p>
+                    </div>
+                </div>
+                <div class="deal-item">
+                    <div class="deal-text">
+                        <h3>Deal 2</h3>
+                        <p>Details of deal 2.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+                
+            </form>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to DMART.com, your number one source for all things shopping. We're dedicated to giving you the very best of products, with a focus on dependability, customer service, and uniqueness.</p>
+            <p>Founded in 2024, DMART.com has come a long way from its beginnings. When we first started out, our passion for providing the best shopping experience drove us to do intense research, and gave us the impetus to turn hard work and inspiration into a booming online store.</p>
+            <p>We now serve customers all over the world and are thrilled to be a part of the quirky wing of the shopping industry.</p>
+            <p>We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
+        </section>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>

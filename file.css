@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:#FFD700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    transition: background-color 0.5s;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    text-decoration: seashell;
+    color: white;
+    padding: 15px 0;
+    display: block;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: #ff6347; 
+}
+
+.content {
+    padding-top: 60px; 
+}
+
+section {
+    padding: 50px;
+    height: 100vh;
+}
+#home {
+    background: #d3f01b4b;
+    text-align: center;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+#products{
+    background: #d4f01bad;
+    text-align: center;
+    /* margin: 20px auto;
+    padding: 50px;
+    height: auto; */
+    /* border-radius: 8px; */ 
+    /* max-width: 800px; */
+}
+
+.start-image {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+#deals {
+    background: #f0e10ef0;
+    text-align: center;
+}
+#contact{
+    background: #aaed94f0;
+    text-align: None;
+}
+#about{
+    background: #4ccec5f0;
+    text-align: None;
+}
+h2 {
+    margin-top: 0;
+}
+
+.product-list, .deals-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item, .deal-item {
+    background: #fff;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.contact-form {
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: navy;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #ff6347;
+}
